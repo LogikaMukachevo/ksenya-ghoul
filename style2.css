@@ -1,0 +1,64 @@
+body{
+background-color: rgb(214, 157, 147);
+
+}
+
+header{
+    background-image: linear-gradient( rgb(214, 157, 147), white, rgb(214, 157, 147));
+}
+
+article{
+    display: flex;
+}
+main, header{
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+}
+
+h2{
+    font-size: 28px;
+    text-align: center;
+}
+
+h3{
+    font-size: 25px;
+}
+
+h4{
+    font-size: 28px;
+}
+
+footer{
+    text-align: center;
+}
+a img{
+    width: 30px;
+    
+}
+nav a {
+    color: rgb(82, 75, 8);
+    font-size: 20px;
+}
+footer p{
+    font-size: 12px;
+}
+
+nav a{
+    background-color: rgb(158, 158, 190);
+}
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    text-shadow: 3px 3px  0 black;
+}
+
+div img:hover{
+    transform: scale(1.5);
+    transition: 1s linear;
+}
